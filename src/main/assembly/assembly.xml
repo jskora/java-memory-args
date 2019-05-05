@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <id>dist</id>
+    <formats>
+        <format>tar.gz</format>
+    </formats>
+    <baseDirectory>java-memory-args</baseDirectory>
+
+    <files>
+        <file>
+            <source>${project.build.directory}/${project.build.finalName}.jar</source>
+            <outputDirectory>lib</outputDirectory>
+            <fileMode>644</fileMode>
+        </file>
+    </files>
+
+    <fileSets>
+        <fileSet>
+            <directory>${project.basedir}/src/main/assembly/scripts</directory>
+            <outputDirectory>.</outputDirectory>
+            <fileMode>755</fileMode>
+            <filtered>true</filtered>
+        </fileSet>
+    </fileSets>
+
+    <url>https://github.com/jskora/java-memory-args.git</url>
+    <scm>
+        <connection>scm:svn:https://github.com/jskora/java-memory-args.git</connection>
+        <developerConnection>scm:svn:https://github.com/jskora/java-memory-args.git</developerConnection>
+        <url>https://github.com/jskora/java-memory-args.git</url>
+    </scm>
+
+</assembly>
