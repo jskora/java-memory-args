@@ -62,4 +62,12 @@
         </plugins>
     </build>
 
+    <url>https://github.com/jskora/java-memory-args.git</url>
+    <scm>
+        <url>https://github.com/jskora/java-memory-args</url>
+        <connection>scm:git:git://github.com/jskora/java-memory-args.git</connection>
+        <developerConnection>scm:git:git@github.com/jskora/java-memory-args.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
 </project>

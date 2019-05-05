@@ -23,11 +23,4 @@
         </fileSet>
     </fileSets>
 
-    <url>https://github.com/jskora/java-memory-args.git</url>
-    <scm>
-        <connection>scm:svn:https://github.com/jskora/java-memory-args.git</connection>
-        <developerConnection>scm:svn:https://github.com/jskora/java-memory-args.git</developerConnection>
-        <url>https://github.com/jskora/java-memory-args.git</url>
-    </scm>
-
 </assembly>
