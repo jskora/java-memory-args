@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <groupId>jskora</groupId>
     <artifactId>java-memory-args</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <modelVersion>4.0.0</modelVersion>
 
     <build>
@@ -67,7 +65,7 @@
         <url>https://github.com/jskora/java-memory-args</url>
         <connection>scm:git:git://github.com/jskora/java-memory-args.git</connection>
         <developerConnection>scm:git:git@github.com/jskora/java-memory-args.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>java-memory-args-1.0</tag>
     </scm>
 
 </project>
